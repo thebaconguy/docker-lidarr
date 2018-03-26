@@ -15,6 +15,7 @@ RUN \
  echo "**** install jq ****" && \
  apt-get update && \
  apt-get install -y \
+ 	python3 \
 	jq && \
  echo "**** install lidarr ****" && \
  mkdir -p /app/lidarr && \
